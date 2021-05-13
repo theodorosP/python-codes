@@ -5,6 +5,9 @@ while True:
 		print("Plese try again.")
 	else:
 		break
-
+#the number 2 represents the number of digits after the coma
 a = "{:.2f}".format(x)
-print(a)
+
+#the number 2 represents the number of digits after the coma
+b = "{:.2%}".format(x)
+print(a, b)
