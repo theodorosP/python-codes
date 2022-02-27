@@ -1,0 +1,11 @@
+#set up the rsa key
+$ cat ~/.ssh/id_rsa.pub
+copy and paste the public rsa key to the github page. Find it in settings
+
+$ git init
+$ git add .
+$ git status
+$ git commit -m "first commit"
+copy the remote repository from the folder (https)
+$ git remote add origin paste_the_above_url
+$ git push -u origin master
